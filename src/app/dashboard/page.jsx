@@ -32,6 +32,7 @@ export default function Dashboard() {
             <p className="text-md text-[#4D7399] mt-1">
               Last Quarter <span className="text-sm text-green-600">+15%</span>
             </p>
+
             <div className="flex justify-start items-end gap-x-4 mt-4">
               {["Q1", "Q2", "Q3", "Q4"].map((q) => (
                 <div key={q} className="flex flex-col items-center">
