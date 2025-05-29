@@ -23,7 +23,7 @@ const RegionProgressBars = () => {
             </span>
             <div className="flex-1 h-4">
               <div
-                className="h-full  bg-gray-300"
+                className="h-full  bg-gray-300 border-r-2"
                 style={{ width: `${widthPercent}%` }}
               ></div>
             </div>
